@@ -12,7 +12,7 @@ use Zend\ServiceManager\Factory\InvokableFactory;
 return array(
     'router' => [
         'routes' => [
-            'trivia' => [
+            'news' => [
                 'type'    => Segment::class,
                 'options' => [
                     'route'    => '/news',
