@@ -80,20 +80,6 @@ class News extends \MIABase\Entity\Base implements \Zend\InputFilter\InputFilter
         $inputFilter->add([
                     'name' => 'caption',
                     'required' => false,
-                    'filters' => [
-                        ['name' => \Zend\Filter\StripTags::class],
-                        ['name' => \Zend\Filter\StringTrim::class],
-                    ],
-                    'validators' => [
-                        [
-                            'name' => \Zend\Validator\StringLength::class,
-                            'options' => [
-                                'encoding' => 'UTF-8',
-                                'min' => 1,
-                                'max' => 100,
-                            ],
-                        ],
-                    ],
                 ]);
         $inputFilter->add([
                     'name' => 'photo',
