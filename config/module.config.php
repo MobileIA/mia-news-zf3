@@ -65,7 +65,7 @@ return array(
                     ],
                 ]
             ],
-            'api-trivia-list' => [
+            'api-news-list' => [
                 'type'    => Segment::class,
                 'options' => [
                     'route'    => '/api/news/list',
