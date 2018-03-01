@@ -7,7 +7,7 @@ namespace MIANews\Controller;
  *
  * @author matiascamiletti
  */
-class ApiController extends \MIAAuthentication\Controller\AuthCrudController
+class ApiController extends \MIABase\Controller\Api\CrudController
 {
     /**
      * Servicio para obtener las noticias disponibles
