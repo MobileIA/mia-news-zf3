@@ -31,7 +31,6 @@ class News extends \MIABase\Entity\Base implements \Zend\InputFilter\InputFilter
         $data['caption'] = $this->caption;
         $data['photo'] = $this->photo;
         $data['user_id'] = $this->user_id;
-        $data['end_date'] = $this->end_date;
         return $data;
     }
 
