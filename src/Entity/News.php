@@ -83,7 +83,7 @@ class News extends \MIABase\Entity\Base implements \Zend\InputFilter\InputFilter
                 ]);
         $inputFilter->add([
                     'name' => 'photo',
-                    'required' => true,
+                    'required' => false,
                 ]);
         $inputFilter->add([
                     'name' => 'user_id',
